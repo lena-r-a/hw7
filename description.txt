@@ -1,0 +1,5 @@
+чтобы стилизовать check-box  или radiobutton, нужно:
+
+1. спрятать элемент с помощью appearance:none;
+2. сверстать нужный элементов ckeckbox и radiobutton В css с помощью псевдоклассов :before :after
+3. с помощью свойства opacity сделать эти псевдоклассы видимыми или нет, в зависимости от состояния checkbox или radiobutton (checked или not:checked)
